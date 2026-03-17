@@ -67,5 +67,5 @@ else:
 # Output:
 <img width="622" height="264" alt="image" src="https://github.com/user-attachments/assets/aa3ed496-0e76-4349-b268-50e1845d41f8" />
 
-Result:
+## Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
