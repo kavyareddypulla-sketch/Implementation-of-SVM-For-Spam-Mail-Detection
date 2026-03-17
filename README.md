@@ -8,18 +8,13 @@ To write a program to implement the SVM For Spam Mail Detection.
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the necessary python packages using import statements.
+1.Load the spam email dataset and preprocess the labels into numerical values.
 
-2.Read the given csv file using read_csv() method and print the number of contents to be displayed using df.head().
+2.Convert the email text messages into numerical feature vectors using TF-IDF.
 
-3.Split the dataset using train_test_split.
+3.Split the dataset into training and testing sets and train the SVM classifier.
 
-4.Calculate Y_Pred and accuracy.
-
-5.Print all the outputs.
-
-6.End the Program.
-
+4.Use the trained model to predict spam or non-spam emails and evaluate the accuracy.
 ## Program:
 ```
 Program to implement the SVM For Spam Mail Detection..
@@ -71,7 +66,6 @@ else:
 ```
 # Output:
 <img width="622" height="264" alt="image" src="https://github.com/user-attachments/assets/aa3ed496-0e76-4349-b268-50e1845d41f8" />
-Result:
-Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
 
+Result:
 Thus the program to implement the SVM For Spam Mail Detection is written and verified using python programming.
