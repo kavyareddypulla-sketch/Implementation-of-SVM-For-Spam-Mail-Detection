@@ -24,6 +24,7 @@ Developed by: RAHUL
 RegisterNumber:  212225230294
 */
 ```
+~~~
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -66,6 +67,7 @@ if prediction[0] == 1:
     print("Prediction: Spam Mail")
 else:
     print("Prediction: Not Spam")
+~~~
 
 ## Output:
 
